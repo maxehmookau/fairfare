@@ -1,0 +1,12 @@
+name: permitted_notice
+question: |
+  Was there a notice at the station you boarded that said it was permitted to board the train without a ticket?
+affirm: |
+  # You should [appeal]((https://www.appealservice.co.uk/NewAppeal))!
+  Under [Section 7.3(c)](https://www.appealservice.co.uk/Documents/SRA-Penalty-Fare-Rules-2002.pdf) of the penalty fare rules, it is not permitted for a penalty fare to be issued if
+
+  > "*a notice was displayed which indicated that passengers were allowed to board that train without a ticket or other authority to travel."*
+
+  You can [appeal](https://www.appealservice.co.uk/NewAppeal) explaining that you were explicitly told that it was safe to board your train without a ticket.
+next: '#'
+affirmative_response: yes

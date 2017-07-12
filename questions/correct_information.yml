@@ -1,0 +1,15 @@
+name: correct_information
+question: |
+  Were you given **all** of the following pieces of information when the penalty fare was issued?
+
+  * The reason you were being issued a penalty fare.
+  * The exact amount you were being charged.
+  * The fact that you have a right of appeal.
+
+affirm: |
+  # You should [appeal]((https://www.appealservice.co.uk/NewAppeal))!
+  Under [Section 8.1](https://www.appealservice.co.uk/Documents/SRA-Penalty-Fare-Rules-2002.pdf) of the penalty fare regulations you must be given **all** of the information when the penalty fare is issued.
+
+  You can [appeal](https://www.appealservice.co.uk/NewAppeal) explaining that the penalty fare was issued in contravention of Section 8.1 of the penalty fare rules and is therefore invalid.
+next: season_ticket
+affirmative_response: no

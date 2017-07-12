@@ -1,0 +1,10 @@
+name: season_ticket
+question: |
+  Did you forget or lose your season ticket and attempt to travel without it assuming the barrier staff would be lenient?
+affirm: |
+  # You should [appeal anyway]((https://www.appealservice.co.uk/NewAppeal))!
+  Although there's no specific rule in the penalty fare rules for them to make an exception, **many train operators will allow you to forget your season ticket a couple of times a year and grant an appeal on this basis.**
+
+  Your mileage may vary, but it's worth a shot.
+next: permitted_notice
+affirmative_response: yes

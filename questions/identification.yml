@@ -1,0 +1,10 @@
+name: identification
+question: Did the person issuing the penalty fare show you their identification?
+affirm: |
+  # You should [appeal]((https://www.appealservice.co.uk/NewAppeal))!
+  Under [Section 5.4](https://www.appealservice.co.uk/Documents/SRA-Penalty-Fare-Rules-2002.pdf) of the penalty fare regulations. Anybody issuing a penalty fare must show their identification when asked.
+  **Not all employees of a train company have this power.**
+
+  You can [appeal](https://www.appealservice.co.uk/NewAppeal) explaining that the person issuing the penalty fare did not properly identify themselves.
+next: no_facilities
+affirmative_response: no

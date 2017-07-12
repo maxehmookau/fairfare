@@ -1,4 +1,9 @@
-<p><%= @question['question'] %></p>
+<p><%= Kramdown::Document.new(@question['question']).to_html %></p>
 
-<a href="/question/<%= @question['name'] %>/yes">Yes</a>
-<a href="/question/<%= @question['next'] %>">No</a>
+<% if @question['affirmative_response'] %>
+  <a href="/question/<%= @question['name'] %>/yes">Yes</a>
+  <a href="/question/<%= @question['next'] %>">No</a>
+<% else %>
+  <a href="/question/<%= @question['next'] %>">Yes</a>
+  <a href="/question/<%= @question['name'] %>/yes">No</a>
+<% end %>
