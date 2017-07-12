@@ -1,0 +1,6 @@
+name: cheating
+question: Did you board a train with the explicit intention of avoiding paying the correct fare?
+affirm: |
+  # We can't help you.
+  You've been caught and you should probably just pay.
+next: poster

@@ -1,0 +1,8 @@
+name: poster
+question: Were there no posters between the entrance and the train you boarded warning you about a potential penalty fare if you failed to buy a ticket prior to boarding?
+affirm: |
+  # You should [appeal]((https://www.appealservice.co.uk/NewAppeal))!
+  Under [Section 4.3(i)](https://www.appealservice.co.uk/Documents/SRA-Penalty-Fare-Rules-2002.pdf) of the penalty fare regulations. A station that enforces a penalty fare **must** make it clear by the use of posters on the station.
+
+  You can [appeal](https://www.appealservice.co.uk/NewAppeal) explaining that the train company failed in their duty to inform you properly of the possibility of a penalty fare.
+next: '#'
