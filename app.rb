@@ -20,3 +20,7 @@ end
 get '/lawyer' do
   erb :lawyer, layout: :layout
 end
+
+get '/sorry' do
+  erb :sorry, layout: :layout
+end
