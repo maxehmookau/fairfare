@@ -8,6 +8,8 @@ GEM
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
+    rack-ssl (1.4.1)
+      rack
     sinatra (2.0.0)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -24,6 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   kramdown
+  rack-ssl
   sinatra
   thin
 

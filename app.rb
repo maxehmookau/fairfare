@@ -1,7 +1,9 @@
 require 'sinatra'
 require 'yaml'
 require 'kramdown'
+require 'rack/ssl'
 
+use Rack::SSL if ENV['RACK_ENV'] == 'production'
 get '/' do
   erb :index
 end
